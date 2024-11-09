@@ -1,0 +1,28 @@
+.logo {
+  font-size: 36px;
+  letter-spacing: 1.3px;
+  font-family: 'Bilbo Swash Caps', cursive;
+  line-height: 41px;
+  font-family: 100;
+  color: #fed136;
+  width: 153px;
+}
+
+.header-links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin-left: 442px;
+  width: 480px;
+  margin-top: -55px;
+}
+
+.header a {
+  font-size: 14px;
+  line-height: 41px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fed136;
+  text-decoration: none;
+  font-family: 200;
+  text-transform: uppercase;
+}
