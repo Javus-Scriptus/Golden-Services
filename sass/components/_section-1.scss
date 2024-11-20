@@ -7,16 +7,13 @@
   font-weight: bold;
   color: #222222;
   text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
+  @extend %center;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
+  @extend %flex-column;
   /* outline: 2px solid red; */
-  margin-left: auto;
-  margin-right: auto;
+  @extend %center;
   /* gap: 20px; */
 }
 

@@ -4,8 +4,7 @@
   background-repeat: no-repeat;
   /* background-size: 100vw; */
   width: 1514px;
-  margin-left: auto;
-  margin-right: auto;
+  @extend %center;
 }
 
 .s2-heading {
@@ -13,8 +12,7 @@
 }
 
 .login-inputs {
-  display: flex;
-  flex-direction: column;
+  @extend %flex-column;
   gap: 28px;
   width: 455px;
   height: 214px;
@@ -89,8 +87,7 @@
   color: #ffffff;
   font-weight: bold;
   background-color: #fed136;
-  margin-left: auto;
-  margin-right: auto;
+  @extend %center;
   font-family: 'Montserrat', sans-serif;
   border: none;
   border-radius: 1px;

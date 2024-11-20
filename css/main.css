@@ -30,12 +30,26 @@ html {
   /* justify-items: center; */
 }
 
+.message-button, .section-2, .card, .section-heading {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-inputs, .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .logo {
   font-size: 36px;
   letter-spacing: 1.3px;
   font-family: "Bilbo Swash Caps", cursive;
   line-height: 41px;
-  font-family: 100;
   color: #fed136;
   width: 153px;
 }
@@ -70,21 +84,10 @@ html {
   font-weight: bold;
   color: #222222;
   text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   /* outline: 2px solid red; */
-  margin-left: auto;
-  margin-right: auto;
   /* gap: 20px; */
 }
 
@@ -127,8 +130,6 @@ html {
   background-repeat: no-repeat;
   /* background-size: 100vw; */
   width: 1514px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .s2-heading {
@@ -136,13 +137,6 @@ html {
 }
 
 .login-inputs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   gap: 28px;
   width: 455px;
   height: 214px;
@@ -298,8 +292,6 @@ html {
   color: #ffffff;
   font-weight: bold;
   background-color: #fed136;
-  margin-left: auto;
-  margin-right: auto;
   font-family: "Montserrat", sans-serif;
   border: none;
   border-radius: 1px;
